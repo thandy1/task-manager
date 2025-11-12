@@ -131,7 +131,7 @@ def edit_selected_task(task):
             todo.clear_terminal()
             print("Press 'q' to cancel.\n")
             print(f"Current: {task.title}\n")
-            new_title = input("Update Task Title: ").title().strip()
+            new_title = input("Update Task Title: ").strip()
             if new_title.lower() == "q":
                 break
             task.update_title(str(new_title))

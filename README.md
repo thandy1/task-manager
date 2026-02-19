@@ -79,20 +79,6 @@ Current Tasks:
 
 ---
 
-### Testing
-
-- A test file is included for running your own basic tests.
-
-- No additional libraries required for the boilerplate test.
-
-- You can run it via:
-
-```bash
-python test/test_logic.py
-```
-
----
-
 ### Notes
 
 - Fully CLI-based, no GUI.
